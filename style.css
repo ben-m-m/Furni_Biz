@@ -1,0 +1,47 @@
+html {
+    background-color:aqua;
+}
+
+body {
+    background-image: url("images/furnibizbackground.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.topnav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+}
+.rooms {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 20px;
+    padding-top: 50px;
+}
+/*#livingroom,
+#BedRoom,
+#Study,
+#Other {
+    padding: 20px;
+    width: 350px;
+    height: 400px;
+}*/
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    height: 60px;
+    border-top: 1px solid #CCCCCC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
